@@ -1,0 +1,1065 @@
+# depslib dependency file v1.0
+1528102786 source:e:\ldzi\main.cpp
+	"include\Admin.h"
+	"include\Klients.h"
+	"include\Lietotajs.h"
+	"include\Viesis.h"
+	"../include/Strukturas.h"
+	"includeLDZ_sistema\LDZ_sistema.h"
+	<SDL2/SDL.h>
+	<iostream>
+
+1527071010 e:\ldzi\include\admin.h
+	"Lietotajs.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1528728782 e:\ldzi\include\lietotajs.h
+	<iostream>
+	<string>
+	<fstream>
+	<SDL2/SDL.h>
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\close_code.h
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 e:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1528731126 e:\ldzi\include\klients.h
+	"Lietotajs.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+
+1523865042 e:\ldzi\include\viesis.h
+	"Lietotajs.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1527677146 source:e:\ldzi\src\admin.cpp
+	"../include/Admin.h"
+	"../includeReisi/Reisi.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	<cstdio>
+
+1525875384 e:\ldzi\includesaraksts\marsruts.h
+	<iostream>
+	<string>
+
+1528903298 source:e:\ldzi\src\klients.cpp
+	"../include/Klients.h"
+	"../include/Strukturas.h"
+	"Lietotajs.h"
+	"Konts.h"
+	"Bilete.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<sstream>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<cstdio>
+	<vector>
+
+1525189442 e:\ldzi\include\strukturas.h
+	<string>
+	<iostream>
+
+1527677766 source:e:\ldzi\src\lietotajs.cpp
+	"..\include\Lietotajs.h"
+	<iostream>
+	<string>
+	<fstream>
+	<SDL2/SDL.h>
+
+1527677766 source:e:\ldzi\src\viesis.cpp
+	"..\include\Viesis.h"
+	<iostream>
+	<string>
+	<sstream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+
+1525875436 source:e:\ldzi\srcsaraksts\cena.cpp
+	"Cena.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525875866 e:\ldzi\includesaraksts\cena.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525877840 source:e:\ldzi\srcsaraksts\laiks.cpp
+	"Laiks.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525875864 e:\ldzi\includesaraksts\laiks.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525875436 source:e:\ldzi\srcsaraksts\marsrutss.cpp
+	"marsrutss.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525875864 e:\ldzi\includesaraksts\marsrutss.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525877676 source:e:\ldzi\srcsaraksts\vilcienanumurs.cpp
+	"VilcienaNumurs.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525877654 e:\ldzi\includesaraksts\vilcienanumurs.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525877840 source:e:\ldzi\srcsaraksts\marsruts.cpp
+	"Marsruts.h"
+	"Cena.h"
+	"Laiks.h"
+	"VilcienaNumurs.h"
+	"marsrutss.h"
+	<fstream>
+	<iostream>
+	<string>
+
+1527090494 e:\ldzi\includekonts\konts.h
+	<string>
+
+1527707778 source:e:\ldzi\srckonts\konts.cpp
+	"Konts.h"
+	<iostream>
+	<string>
+	<fstream>
+	"cstdlib"
+
+1528106386 source:d:\ldzi\main.cpp
+	"include\Admin.h"
+	"include\Klients.h"
+	"include\Lietotajs.h"
+	"include\Viesis.h"
+	"../include/Strukturas.h"
+	"includeLDZ_sistema\LDZ_sistema.h"
+	<SDL2/SDL.h>
+	<iostream>
+
+1527074610 d:\ldzi\include\admin.h
+	"Lietotajs.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1528107604 d:\ldzi\include\lietotajs.h
+	<iostream>
+	<string>
+	<fstream>
+	<SDL2/SDL.h>
+
+1528105996 d:\ldzi\include\klients.h
+	"Lietotajs.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+
+1523868642 d:\ldzi\include\viesis.h
+	"Lietotajs.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1527680746 source:d:\ldzi\src\admin.cpp
+	"../include/Admin.h"
+	"../includeReisi/Reisi.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	<cstdio>
+
+1525878984 d:\ldzi\includesaraksts\marsruts.h
+	<iostream>
+	<string>
+
+1528107406 source:d:\ldzi\src\klients.cpp
+	"../include/Klients.h"
+	"../include/Strukturas.h"
+	"Lietotajs.h"
+	"Konts.h"
+	"Bilete.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<sstream>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<cstdio>
+	<vector>
+
+1525193042 d:\ldzi\include\strukturas.h
+	<string>
+	<iostream>
+
+1527094094 d:\ldzi\includekonts\konts.h
+	<string>
+
+1527681366 source:d:\ldzi\src\lietotajs.cpp
+	"..\include\Lietotajs.h"
+	<iostream>
+	<string>
+	<fstream>
+	<SDL2/SDL.h>
+
+1527681366 source:d:\ldzi\src\viesis.cpp
+	"..\include\Viesis.h"
+	<iostream>
+	<string>
+	<sstream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+
+1527711378 source:d:\ldzi\srckonts\konts.cpp
+	"Konts.h"
+	<iostream>
+	<string>
+	<fstream>
+	"cstdlib"
+
+1525879036 source:d:\ldzi\srcsaraksts\cena.cpp
+	"Cena.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525879466 d:\ldzi\includesaraksts\cena.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525881440 source:d:\ldzi\srcsaraksts\laiks.cpp
+	"Laiks.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525879464 d:\ldzi\includesaraksts\laiks.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525881440 source:d:\ldzi\srcsaraksts\marsruts.cpp
+	"Marsruts.h"
+	"Cena.h"
+	"Laiks.h"
+	"VilcienaNumurs.h"
+	"marsrutss.h"
+	<fstream>
+	<iostream>
+	<string>
+
+1525881254 d:\ldzi\includesaraksts\vilcienanumurs.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525879464 d:\ldzi\includesaraksts\marsrutss.h
+	<Marsruts.h>
+	<iostream>
+	<string>
+
+1525879036 source:d:\ldzi\srcsaraksts\marsrutss.cpp
+	"marsrutss.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1525881276 source:d:\ldzi\srcsaraksts\vilcienanumurs.cpp
+	"VilcienaNumurs.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\close_code.h
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1527090764 e:\ldzi\includebilete\bilete.h
+	<string>
+
+1527090664 source:e:\ldzi\srcbilete\bilete.cpp
+	"Bilete.h"
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+
+1527094364 d:\ldzi\includebilete\bilete.h
+	<string>
+
+1527094264 source:d:\ldzi\srcbilete\bilete.cpp
+	"Bilete.h"
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+
+1527089266 e:\ldzi\includereisi\reisi.h
+	<string>
+
+1527089372 source:e:\ldzi\srcreisi\reisi.cpp
+	"Reisi.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1527092972 source:d:\ldzi\srcreisi\reisi.cpp
+	"Reisi.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1527092866 d:\ldzi\includereisi\reisi.h
+	<string>
+
+1528105996 d:\ldzi\includeldz_sistema\ldz_sistema.h
+
+1528106482 source:d:\ldzi\srcsistema\ldz_sistema.cpp
+	"LDZ_sistema.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<sstream>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<cstdio>
+	<vector>
+	"../include/Strukturas.h"
+
+1528102396 e:\ldzi\includeldz_sistema\ldz_sistema.h
+
+1528102882 source:e:\ldzi\srcsistema\ldz_sistema.cpp
+	"LDZ_sistema.h"
+	<iostream>
+	<algorithm>
+	<conio.h>
+	<windows.h>
+	<string>
+	<sstream>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<cstdio>
+	<vector>
+	"../include/Strukturas.h"
+

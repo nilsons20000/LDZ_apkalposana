@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LDZ" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LDZ" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="includeSaraksts" />
+					<Add directory="includeKonts" />
+					<Add directory="includeTabula" />
+					<Add directory="includeBilete" />
+					<Add directory="includeReisi" />
+					<Add directory="includeLDZ_sistema" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LDZ" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="includeSaraksts" />
+					<Add directory="includeKonts" />
+					<Add directory="includeTabula" />
+					<Add directory="includeBilete" />
+					<Add directory="includeReisi" />
+					<Add directory="includeLDZ_sistema" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="E:/SDL2-2.0.8/i686-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add directory="E:/SDL2-2.0.8/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="includeBilete/Bilete.h" />
+		<Unit filename="includeKonts/Konts.h" />
+		<Unit filename="includeLDZ_sistema/LDZ_sistema.h" />
+		<Unit filename="includeReisi/Reisi.h" />
+		<Unit filename="include/ADMIN.H" />
+		<Unit filename="include/KLIENTS.H" />
+		<Unit filename="include/Lietotajs.h" />
+		<Unit filename="include/Strukturas.h" />
+		<Unit filename="include/VIESIS.H" />
+		<Unit filename="main.cpp" />
+		<Unit filename="srcBilete/BILETE.CPP" />
+		<Unit filename="srcKonts/Konts.cpp" />
+		<Unit filename="srcReisi/Reisi.cpp" />
+		<Unit filename="srcSistema/LDZ_sistema.cpp" />
+		<Unit filename="src/ADMIN.CPP" />
+		<Unit filename="src/KLIENTS.CPP" />
+		<Unit filename="src/Lietotajs.cpp" />
+		<Unit filename="src/VIESIS.CPP" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
