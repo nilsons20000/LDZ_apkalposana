@@ -1,4 +1,3 @@
-ccc,175
-aaa,48
-bbb,72
-adad,41
+sadad 33
+aaa 37
+ 

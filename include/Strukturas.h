@@ -7,4 +7,9 @@ struct Users{
 string login ,parole, personalID;
 };
 
+struct Kontss{
+string numurs ,nauda_konta;
+};
+
+
 #endif // STRUKTURAS_H_INCLUDED

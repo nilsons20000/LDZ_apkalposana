@@ -14,18 +14,21 @@ Reisi::~Reisi()
 }
 void Reisi::pievienot(string nosaukums){
     string vilcienaNumurs;string marsruts;string laiks; string cena;
-
+    fflush(stdin);
 	cout << "Ievadi vilciena numuru numuru: ";
-	cin >> vilcienaNumurs;
+	getline(cin, vilcienaNumurs);
 
+    fflush(stdin);
 	cout << "Ievadi marsrutu: ";
-	cin >> marsruts;
+	getline(cin, marsruts);
 
+    fflush(stdin);
 	cout << "Ievadi laiku: ";
-	cin >> laiks;
+	getline(cin, laiks);
 
+    fflush(stdin);
 	cout << "Ievadi cenu: ";
-	cin >> cena;
+	getline (cin,cena);
 
     Reisi(vilcienaNumurs,marsruts,laiks,cena,nosaukums);
 }
@@ -57,7 +60,8 @@ void Reisi::setLaiks(string laiks,string nosaukums){
 
 void Reisi::setCena(string cena,string nosaukums){
 	ofstream file(string(string(nosaukums)).c_str(),ios::app);
-	file<<cena<<","<<endl;
+	file<<cena<<endl;
+	cout<<"Viss tiek pievienots"<<endl;
 	file.close();
 }
 

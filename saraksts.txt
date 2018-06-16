@@ -1,5 +1,2 @@
-Numurs 1,Riga pasazieru-Dubulti,Laiks=10-21,4
-Numurs 1,Riga pasazieru-Tukums2,Laiks=10-21,4
-Numurs 2,Riga pasazieru-Sloka,Laiks=10-22,4
-123,sad,sd,sad,
-,tukumsø,Laiks=sdfsdf,sdf,
+Numurs 1,Riga pasazieru-Carnikava,Laiks=10-21,4
+Numurs 1,Riga pasazieru-Tukums1 ,Laiks=10-21,2

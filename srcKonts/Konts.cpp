@@ -32,6 +32,7 @@ void Konts::setKontaNumurs(string kontaNumurs, string personalID){
     k="-Konts.txt";
 	ofstream file(string(string(f)+k).c_str(),ios::app);
     int a=rand() % 100;
-	file<<kontaNumurs<<","<<a<<endl;
+	file<<kontaNumurs<<" "<<a<<endl;
+    cout<<"Konts "<<kontaNumurs<<" tiek pievienots"<<endl;
 	file.close();
 }

@@ -15,10 +15,10 @@ class Admin : public Lietotajs
         void pievienot_Sarakstu();//ir
 		void paskatities_Lietotajus();//ir
 		void meklet_Letotaju();//ir
-		void nodzest_Vesturi();//ir
+		void nodzest_Vesturi(string);//ir
         void addmin();//ir
 		void dzest_Lietotajus();//ir
-		//void nobloket_Lietotajus();
+		void nodzest_reisus(string);
 		void kludas();
         void kludass(string);
     protected:

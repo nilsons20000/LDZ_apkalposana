@@ -30,103 +30,105 @@ void Klients::paradit_Kontu(string personalID){
     nosaukums=personalID+"-Konts.txt";
     paraditSarakstu(nosaukums);
 }
-
 void Klients::nopirkt(string file,string personalID){
-	    string numurs, laikss, nauda, uzKurieni;
-	    string line;
-        int chose,now=0;
-	    ifstream saraksts(string(string(file)).c_str());
-        int line_number_now;
-        int line_number_chose;
-        cout<<"Ievadi biletes numuru::";
-        cin>>line_number_chose;
+    string nosaukumss;
+    nosaukumss=personalID+"-Konts.txt";
+    ifstream kont(string(string(nosaukumss)).c_str());
+    if (kont.peek() == ifstream::traits_type::eof()){
+            cout<<"Nav neviena pievienota konta"<<endl;
+            kont.close();
+        }else{
+                vector<Kontss> kontss;
+                int index;
 
-        fflush(stdin);
+                Kontss u;
+                while (kont >> u.numurs >> u.nauda_konta)
+                kontss.push_back(u);
+                kont.close();
 
-        line_number_now=0;
-        while(getline(saraksts,line)){
-            line_number_now++;
-                if (line_number_now==line_number_chose){
-                    getline(saraksts,numurs,',');
-                    getline(saraksts,uzKurieni,',');
-                    getline(saraksts,laikss,',' );
-                    getline(saraksts,nauda);
+                string num, laikss, nauda, uzKurieni;
+                string line;
 
-                    double out;
-                    stringstream st;
-                    st << nauda;
-                    st >> out;
+                ifstream saraksts(string(string(file)).c_str());
+                int line_number_now;
+                int line_number_chose;
 
-                    double nauda_nauda;
-                    nauda_nauda=out;
+                cout<<"Ievadi biletes numuru::";
+                cin>>line_number_chose;
 
-                    string konta_numurs;
-                    string nauda_konta;
+                fflush(stdin);
 
-                    string nosaukums;
+                line_number_now=0;
+                while(!saraksts.eof()){
+                    line_number_now++;
+                        if (line_number_now==line_number_chose){
+                            getline(saraksts,num,',');
+                            getline(saraksts,uzKurieni,',');
+                            getline(saraksts,laikss,',' );
+                            getline(saraksts,nauda);
 
-                    cout<<endl;
+                            double out;
+                            stringstream st;
+                            st << nauda;
+                            st >> out;
 
-                    nosaukums=personalID+"-Konts.txt";
-                    paraditSarakstu(nosaukums);
+                            int i =0;
+                            for (vector<Kontss>::iterator it=kontss.begin();it!=kontss.end();it++){
+                                i++;
+                                cout<<i<<" "<<it->numurs<<"  "<<it->nauda_konta<<endl;
+                            }
 
-                    ifstream konts(string(string(nosaukums)).c_str());
-                    fflush(stdin);
+                            cout<<"Ievadi konta index::";
+                            cin>>index;
+                            index--;
+                            cout<<kontss[index].numurs<<" "<<kontss[index].nauda_konta<<endl;
+                            cout<<endl;
 
-                    cout<<"Ievadi konta numurs::";
-                    cin>>chose;
+                            double outt;
+                            stringstream stt;
+                            stt << kontss[index].nauda_konta;
+                            stt >> outt;
 
-                    ofstream output("tempfile.txt");
+                            double  summa;
+                            if(outt>out)
+                                summa=outt-out;
+                                 else{
+                                    cout<<"Nepietiek lidzekljus"<<endl;
+                                    break;
+                                }
+                                ofstream vesture(string(string("vesture.txt")).c_str(),ios::app);
+                                ofstream vestureID(string(string(personalID)+"-vesture.txt").c_str(),ios::app);
 
-                    string s;
+                                vestureID<<personalID<<" "<<num<<" "<<uzKurieni<<" "<<laikss<<" "<<nauda<<" "<<endl;
+                                vesture<<personalID<<" "<<num<<" "<<uzKurieni<<" "<<laikss<<" "<<nauda<<" "<<endl;
 
-                        while(getline(konts,s)){
-                            now++;
-                                if (now==chose){
-                                    getline(konts,konta_numurs,',');
-                                    getline (konts, nauda_konta);
+                                vestureID.close();
+                                vesture.close();
 
-                                        double outt;
-                                        stringstream stt;
-                                        stt << nauda_konta;
-                                        stt >> outt;
+                                string result;
+                                stringstream sttt;
+                                sttt << summa;
+                                sttt >> result;
 
-                                        cout<<outt;
-                                        double  summa;
-                                        if(outt>nauda_nauda)
-                                            summa=outt-nauda_nauda;
-                                             else{
-                                                cout<<"Nepietiek lidzekljus"<<endl;
-                                                break;
-                                            }
+                                kontss[index].nauda_konta=result;
+                                cout<<endl;
 
-                                            string result;
-                                            stringstream sttt;
-                                            sttt << summa;
-                                            sttt >> result;
+                                Kontss uu;
+                                kontss.push_back(uu);
 
-                                            string nauda_konta;
-                                            stringstream stttt;
-                                            stttt << outt;
-                                            stttt >> nauda_konta;
+                                cout<<endl;
 
-                                            output<<konta_numurs<<","<<result<<endl;
-
-
-
-                    }
-                                output<<s<<endl;
-
+                                ofstream kont(string(string(nosaukumss)).c_str());
+                                for(std::vector<Kontss>::size_type i = 0; i !=kontss.size(); i++){
+                                    kont<<kontss[i].numurs<<" "<<kontss[i].nauda_konta<<endl;
+                                }
+                                cout<<"Bilete tiek nopirkta"<<endl;
+                        break;
+                        }
                 }
-                konts.close();
-                output.close();
-                saraksts.close();
-                remove(nosaukums.c_str());
-                rename("tempfile.txt",nosaukums.c_str());
-            }
-    }
+                kont.close();
+        }
 }
-
 void Klients::filtretaMeklesana(string personalID, string nosaukums){
     string VilcienaNR;
     string laiks;
@@ -184,11 +186,8 @@ void Klients::filtretaMeklesana(string personalID, string nosaukums){
                         }
                     }
             }
-
 }
-
-void Klients::Print_Info(string personalID)
-{
+void Klients::Print_Info(string personalID){
     int izvele;
     ifstream file("lietotaji.txt");
     string line;
@@ -201,22 +200,24 @@ void Klients::Print_Info(string personalID)
     cin>>izvele;
     switch(izvele){
         case 1: {
+            system("cls");
             string nosaukums;
             nosaukums=personalID+"-Konts.txt";
             paraditSarakstu(nosaukums);
             break;
         }
     }
-    cout<<"Gribi nodzest kontu?1-Ja 2-Ne::";
-    cin>>izvele;
-    switch(izvele){
-        case 1: {
-            string nosaukums;
-            nosaukums=personalID+"-Konts.txt";
-            nodzest_Kontu(nosaukums,personalID);
-            break;
-        }
-    }
+                cout<<"Gribi nodzest kontu?1-Ja 2-Ne::";
+                cin>>izvele;
+                switch(izvele){
+                    case 1: {
+                        system("cls");
+                        string nosaukums;
+                        nosaukums=personalID+"-Konts.txt";
+                        nodzest_Kontu(nosaukums,personalID);
+                        break;
+                    }
+                }
 }
 
 void Klients::Nopirkt_Bileti(string personalID){
@@ -233,7 +234,6 @@ void Klients::Nopirkt_Bileti(string personalID){
             string nosaukums;
             nosaukums="saraksts.txt";
             paraditSarakstu(nosaukums);
-            cout<<personalID<<endl;
             nopirkt(nosaukums,personalID);
             break;
         }
@@ -270,27 +270,41 @@ void Klients::mainit_paroli(string login,string parole,string personalID){
     rename ("lietotaji_temp.txt","lietotaji.txt");
 }
 void Klients::nodzest_Kontu(string nosaukums,string personalID){
-     ifstream file(string(string(nosaukums)).c_str());
-     cout<<"Ievadi konta secibu :"<<endl;
-     int number_line_editing,i_number_line_now;
-     string s;
-     cin>>number_line_editing;
-     i_number_line_now=0;
-     ofstream output("temp.txt");
-     while(getline(file,s ))
-        {
-         i_number_line_now++;
-         if(i_number_line_now!=number_line_editing-1)
-           {
-            output<<s<<endl;
-           }
+    ifstream kont(string(string(nosaukums)).c_str());
+    if (kont.peek() == ifstream::traits_type::eof()){
+        cout<<"Nav neviena pievienota konta"<<endl;
+        kont.close();
+    }
+            else{
+                vector<Kontss> kontss;
+                int index;
+                {
+                    ifstream kont(string(string(nosaukums)).c_str());
+                    Kontss u;
+                    while (kont >> u.numurs >> u.nauda_konta)
+                    kontss.push_back(u);
+                    kont.close();
+                }
+                int i=0;
+                for (vector<Kontss>::iterator it=kontss.begin();it!=kontss.end();it++){
+                    i++;
+                    cout<<i<<" "<<it->numurs<<"  "<<it->nauda_konta<<endl;
+                }
 
+                cout<<"Ievadi konta index::";
+                cin>>index;
+                index--;
+                cout<<kontss[index].numurs<<" "<<kontss[index].nauda_konta<<endl;
+                cout<<endl;
 
-        }
-    file.close();
-    output.close();
-    remove(nosaukums.c_str());
-    rename("temp.txt",nosaukums.c_str());
+                kontss.erase(kontss.begin() + index);
+
+                ofstream kont(string(string(nosaukums)).c_str());
+                for(std::vector<Kontss>::size_type i = 0; i !=kontss.size(); i++){
+                    kont<<kontss[i].numurs<<" "<<kontss[i].nauda_konta<<endl;
+                }
+                cout<<"Konts tiek nodzests"<<endl;
+            }
 }
 
 void Klients::Klientss(){
@@ -415,6 +429,7 @@ void Klients::Klientss(){
                         break;
                     }
                     case 9:{
+                        system("cls");
                         string nosaukums;
                         nosaukums=personalID+"-vesture.txt";
                         paraditSarakstu(nosaukums);
@@ -440,6 +455,4 @@ void Klients::Klientss(){
             cout<<"Nepareizs login, parole vai ID "<<endl;
             Sleep(1000);
         }
-
-
 }
