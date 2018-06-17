@@ -1,2 +1,1 @@
-100400-21203 Numurs 1 Riga pasazieru-Dubulti Laiks=10-21 4 
-100400-21203 Numurs 1 Riga pasazieru-Dubulti Laiks=10-21 4 
+100300-21507,Numurs 1,Riga pasazieru-Carnikava,Laiks=10-21,3.99

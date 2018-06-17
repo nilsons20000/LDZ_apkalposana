@@ -35,6 +35,7 @@ void Bilete::drukasana(string personalID){
     while(!biletes.eof()){
         line_number_now++;
             if (line_number_now==line_number_chose){
+				getline(biletes,personalID,',');
                 getline(biletes,numurs,',');
                 getline(biletes,uzKurieni,',');
                 getline(biletes,laikss,',' );

@@ -99,8 +99,8 @@ void Klients::nopirkt(string file,string personalID){
                                 ofstream vesture(string(string("vesture.txt")).c_str(),ios::app);
                                 ofstream vestureID(string(string(personalID)+"-vesture.txt").c_str(),ios::app);
 
-                                vestureID<<personalID<<" "<<num<<" "<<uzKurieni<<" "<<laikss<<" "<<nauda<<" "<<endl;
-                                vesture<<personalID<<" "<<num<<" "<<uzKurieni<<" "<<laikss<<" "<<nauda<<" "<<endl;
+                                vestureID<<personalID<<","<<num<<","<<uzKurieni<<","<<laikss<<","<<nauda<<endl;
+                                vesture<<personalID<<","<<num<<" "<<uzKurieni<<" "<<laikss<<","<<nauda<<endl;
 
                                 vestureID.close();
                                 vesture.close();
@@ -136,7 +136,7 @@ void Klients::filtretaMeklesana(string personalID, string nosaukums){
     string line;
     int i;
 
-    cout<<"Ievadi vilciena numuru: ";
+    cout<<"Ievadi vilciena 'piem. 1' :: ";
     cin>>VilcienaNR;
 
     ifstream file(string(string(nosaukums)).c_str());
@@ -149,15 +149,16 @@ void Klients::filtretaMeklesana(string personalID, string nosaukums){
                         cout<<line<<endl;
                         output<<line<<endl;
                     }
+
             }
             file.close();
             output.close();
-            cout<<"Ievadi laiku 'piem. 10-21' ::";
+            cout<<"Ievadi laiku 'piem. 10.21' ::";
             cin>>laiks;
 
             ifstream filee("vilcienaNR.txt");
             if (filee.peek() == ifstream::traits_type::eof())
-                    cout<<"tuks"<<endl;
+                    cout<<"Sarakstu nav"<<endl;
                 else{
                     ofstream outputt("vilcienaLaiks.txt");
                     fflush(stdin);

@@ -1,1 +1,2 @@
-Numurs 1,Riga pasazieru-Dubulti,Laiks=10-21,4
+Numurs 1,Riga pasazieru-Carnikava,Laiks=10.21,3.99
+Numurs 1,Riga pasazieru-Tukums1 ,Laiks=10.21,2

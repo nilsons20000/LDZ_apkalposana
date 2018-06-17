@@ -19,15 +19,15 @@ void Reisi::pievienot(string nosaukums){
 	getline(cin, vilcienaNumurs);
 
     fflush(stdin);
-	cout << "Ievadi marsrutu: ";
+	cout << "Ievadi marsrutu(piem. Riga pasazieru - Dubultu): ";
 	getline(cin, marsruts);
 
     fflush(stdin);
-	cout << "Ievadi laiku: ";
+	cout << "Ievadi laiku(piem. 10.21): ";
 	getline(cin, laiks);
 
     fflush(stdin);
-	cout << "Ievadi cenu: ";
+	cout << "Ievadi cenu(piem. 4): ";
 	getline (cin,cena);
 
     Reisi(vilcienaNumurs,marsruts,laiks,cena,nosaukums);

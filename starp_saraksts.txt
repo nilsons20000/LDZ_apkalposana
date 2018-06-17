@@ -1,0 +1,3 @@
+Numurs 1,Riga pasazieru-Maskava,Laiks=10.21,42
+Numurs 2,Riga pasazieru-Minsk,Laiks=10.39,22
+Numurs 13,Riga pasazieru-Sankt-Peterburgs,Laiks=11.40,19
