@@ -505,7 +505,7 @@
 	<SDL2/SDL.h>
 	<iostream>
 
-1527074610 d:\ldzi\include\admin.h
+1529079716 d:\ldzi\include\admin.h
 	"Lietotajs.h"
 	<iostream>
 	<string>
@@ -553,7 +553,7 @@
 	<iostream>
 	<string>
 
-1528906898 source:d:\ldzi\src\klients.cpp
+1529244180 source:d:\ldzi\src\klients.cpp
 	"../include/Klients.h"
 	"../include/Strukturas.h"
 	"Lietotajs.h"
@@ -572,7 +572,7 @@
 	<cstdio>
 	<vector>
 
-1525193042 d:\ldzi\include\strukturas.h
+1528997054 d:\ldzi\include\strukturas.h
 	<string>
 	<iostream>
 
@@ -595,7 +595,7 @@
 	<stdlib.h>
 	<stdio.h>
 
-1527711378 source:d:\ldzi\srckonts\konts.cpp
+1529078790 source:d:\ldzi\srckonts\konts.cpp
 	"Konts.h"
 	<iostream>
 	<string>
@@ -1003,7 +1003,7 @@
 1527094364 d:\ldzi\includebilete\bilete.h
 	<string>
 
-1527094264 source:d:\ldzi\srcbilete\bilete.cpp
+1529242858 source:d:\ldzi\srcbilete\bilete.cpp
 	"Bilete.h"
 	<iostream>
 	<sstream>
@@ -1019,7 +1019,7 @@
 	<string>
 	<fstream>
 
-1527092972 source:d:\ldzi\srcreisi\reisi.cpp
+1529243696 source:d:\ldzi\srcreisi\reisi.cpp
 	"Reisi.h"
 	<iostream>
 	<string>

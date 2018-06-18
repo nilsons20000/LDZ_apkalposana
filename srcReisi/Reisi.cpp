@@ -15,11 +15,11 @@ Reisi::~Reisi()
 void Reisi::pievienot(string nosaukums){
     string vilcienaNumurs;string marsruts;string laiks; string cena;
     fflush(stdin);
-	cout << "Ievadi vilciena numuru numuru: ";
+	cout << "Ievadi vilciena numuru numuru(piem. 1): ";
 	getline(cin, vilcienaNumurs);
 
     fflush(stdin);
-	cout << "Ievadi marsrutu(piem. Riga pasazieru - Dubultu): ";
+	cout << "Ievadi marsrutu(piem. Riga-Dubultu): ";
 	getline(cin, marsruts);
 
     fflush(stdin);

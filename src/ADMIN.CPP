@@ -196,10 +196,11 @@ void Admin::kludass(string nosaukums){
                 string word_new; // jauns vards
                 cout<<"Ievadi veco vardu.::"<<endl;
                 cin >> word_old ;
-                cout<<"Ievadi jauno vardu.::"<<endl;
-                cin >>word_new;
+
                 size_t ind = s.find(word_old);
                 if (ind!=string::npos){  //ja ir atrsts
+                cout<<"Ievadi jauno vardu.::"<<endl;
+                cin >>word_new;
                     s.replace(ind,word_old.size(),word_new);
                      cout<<"Viss ir nomainits"<<endl;
                    }else{
