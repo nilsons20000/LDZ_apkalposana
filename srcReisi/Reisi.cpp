@@ -23,7 +23,7 @@ void Reisi::pievienot(string nosaukums){
 	getline(cin, marsruts);
 
     fflush(stdin);
-	cout << "Ievadi laiku(piem. 10.21): ";
+	cout << "Ievadi laiku(piem. 10:21): ";
 	getline(cin, laiks);
 
     fflush(stdin);

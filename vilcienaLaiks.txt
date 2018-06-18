@@ -1,2 +1,2 @@
-Numurs 1,Riga pasazieru-Carnikava,Laiks=10.21,3.99
-Numurs 1,Riga pasazieru-Tukums1 ,Laiks=10.21,2
+Numurs 1,Riga-Carnikava,Laiks=10:21,3.99
+Numurs 1,Riga-Tukums1 ,Laiks=10:21,2.11

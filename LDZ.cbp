@@ -45,11 +45,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="D:/SDL2-2.0.8/i686-w64-mingw32/include" />
+			<Add directory="E:/SDL2-2.0.8/i686-w64-mingw32/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32 -lSDL2main -lSDL2" />
-			<Add directory="D:/SDL2-2.0.8/i686-w64-mingw32/lib" />
+			<Add directory="E:/SDL2-2.0.8/i686-w64-mingw32/lib" />
 		</Linker>
 		<Unit filename="includeBilete/Bilete.h" />
 		<Unit filename="includeKonts/Konts.h" />

@@ -373,7 +373,7 @@
 	<string>
 	<fstream>
 
-1529151180 source:e:\ldzi\src\admin.cpp
+1529331182 source:e:\ldzi\src\admin.cpp
 	"../include/Strukturas.h"
 	"../include/Admin.h"
 	"../includeReisi/Reisi.h"
@@ -392,7 +392,7 @@
 	<iostream>
 	<string>
 
-1529240580 source:e:\ldzi\src\klients.cpp
+1529331380 source:e:\ldzi\src\klients.cpp
 	"../include/Klients.h"
 	"../include/Strukturas.h"
 	"Lietotajs.h"
@@ -422,7 +422,7 @@
 	<fstream>
 	<SDL2/SDL.h>
 
-1528903428 source:e:\ldzi\src\viesis.cpp
+1529331182 source:e:\ldzi\src\viesis.cpp
 	"..\include\Viesis.h"
 	<iostream>
 	<string>
@@ -1013,7 +1013,7 @@
 1527089266 e:\ldzi\includereisi\reisi.h
 	<string>
 
-1529240096 source:e:\ldzi\srcreisi\reisi.cpp
+1529331248 source:e:\ldzi\srcreisi\reisi.cpp
 	"Reisi.h"
 	<iostream>
 	<string>

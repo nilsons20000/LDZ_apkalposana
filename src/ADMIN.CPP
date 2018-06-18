@@ -244,6 +244,7 @@ void Admin::addmin(){
                             string nosaukums;
                             nosaukums="saraksts.txt";
                             system("cls");
+                            cout<<"Numurs, marsruts, laiks, cena"<<endl;
                             paraditSarakstu(nosaukums);
                             system("pause");
                             system("cls");
@@ -253,6 +254,7 @@ void Admin::addmin(){
                             string nosaukums;
                             nosaukums="starp_saraksts.txt";
                             system("cls");
+                            cout<<"Numurs, marsruts, laiks, cena"<<endl;
                             paraditSarakstu(nosaukums);
                              system("pause");
                              system("cls");

@@ -32,6 +32,7 @@ void Viesis::vviesis(){
                 string nosaukums;
                 nosaukums="saraksts.txt";
                 system("cls");
+                cout<<"Numurs, marsruts, laiks, cena"<<endl;
                 paraditSarakstu(nosaukums);
                 system("pause");
                         system("cls");
@@ -41,6 +42,7 @@ void Viesis::vviesis(){
                 string nosaukums;
                 nosaukums="starp_saraksts.txt";
                 system("cls");
+                cout<<"Numurs, marsruts, laiks, cena"<<endl;
                 paraditSarakstu(nosaukums);
                 system("pause");
                         system("cls");

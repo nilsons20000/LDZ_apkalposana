@@ -234,6 +234,7 @@ void Klients::Nopirkt_Bileti(string personalID){
             system("cls");
             string nosaukums;
             nosaukums="saraksts.txt";
+            cout<<"Numurs, marsruts, laiks, cena"<<endl;
             paraditSarakstu(nosaukums);
             nopirkt(nosaukums,personalID);
             break;
@@ -242,6 +243,7 @@ void Klients::Nopirkt_Bileti(string personalID){
             system("cls");
             string nosaukums;
             nosaukums="starp_saraksts.txt";
+            cout<<"Numurs, marsruts, laiks, cena"<<endl;
             paraditSarakstu(nosaukums);
             nopirkt(nosaukums,personalID);
             break;
@@ -349,6 +351,7 @@ void Klients::Klientss(){
                         string nosaukums;
                         nosaukums="saraksts.txt";
                         system("cls");
+                        cout<<"Numurs, marsruts, laiks, cena"<<endl;
                         paraditSarakstu(nosaukums);
                         system("pause");
                         system("cls");
@@ -358,6 +361,7 @@ void Klients::Klientss(){
                         string nosaukums;
                         nosaukums="starp_saraksts.txt";
                         system("cls");
+                        cout<<"Numurs, marsruts, laiks, cena"<<endl;
                         paraditSarakstu(nosaukums);
                         system("pause");
                         system("cls");

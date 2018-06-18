@@ -1,1 +1,1 @@
-100300-21507,Numurs 1,Riga pasazieru-Carnikava,Laiks=10-21,3.99
+100300-21507,Numurs 1,Riga-Carnikava,Laiks=10:21,3.99

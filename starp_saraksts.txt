@@ -1,3 +1,3 @@
-Numurs 1,Riga-Maskava,Laiks=10.21,42
-Numurs 2,Riga-Minsk,Laiks=10.39,22
-Numurs 13,Riga-Sankt-Peterburgs,Laiks=11.40,19
+Numurs 1,Riga-Maskava,Laiks=10:21,42.00
+Numurs 2,Riga-Minsk,Laiks=10:39,22.00
+Numurs 13,Riga-Sankt-Peterburgs,Laiks=11:40,19.00
